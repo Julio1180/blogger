@@ -1,0 +1,38 @@
+div.container.fluid{
+    background: rgb(40, 93, 124);
+    width: 100vmax;
+    
+}
+
+
+
+div.servicios.d-flex{
+    display: table-column;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;    
+   
+}
+
+img{
+    width: 500px;
+    
+}
+
+
+h3{
+    background: gray;
+    display: flex;
+    justify-content: center;
+    font-family: Arial;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+    
+
+p{    
+    font-family: Arial;
+    font-size: 20px;
+}
+
+

@@ -1,0 +1,35 @@
+div.class-container{
+    background-image: url(https://www.enextremo.com/wp-content/uploads/2018/03/Los_Roques_North_Toby_01.jpg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+
+h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+label.form-label{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 0, 20px, 0, 20px;
+}
+
+.btnEnviar{
+    text-decoration: none;
+    padding: 10px;
+    font-weight: 600;
+    font-size: 20px;
+    color: black;
+    background-color: gray;
+    border-radius: 6px;
+    border: 2px solid black;
+    
+}

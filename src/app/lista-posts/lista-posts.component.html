@@ -1,0 +1,26 @@
+<div class="container fluid">
+    <div class="search">
+        <input type="text" placeholder="Buscar" (input)="onInput($event)">
+        <label for=""></label>
+    </div>
+    <div class="Entrada">
+        <button routerLink="/new">Crear nueva entrada</button>
+    </div>
+    <select class="form-select m-3" (change)="onChange($event)">
+        <option value="ALL">Categoría</option>
+        <option value="SURF">Surf</option>
+        <option value="SKATE">Skate</option>
+        <option value="MOTOCROSS">Motocross</option>
+
+    </select>
+    <div class="servicios d-flex">
+        <div class="servicio col-6 m-2" *ngFor="let servicio of servicios">
+            <h3>{{servicio.title}}</h3>
+            <p>{{servicio.body}}</p>
+            <img [src]="servicio.image">
+            <blockquote class="blockquote">{{servicio.author}}</blockquote>
+            <p>{{servicio.category}}</p>
+            <p>{{servicio.createdAt}}</p>
+        </div>
+    </div>
+</div>
